@@ -35,7 +35,7 @@ The rules:
 
 - We will have 2 roles, the coder and the tester
 - The coder - your job is to write the minimum possible implemenation take a look at the
-  evil tdd [example](example/eviltdd)
+  evil tdd [example](./examples/eviltdd)
 - The tester - your job is to write tests that make the coder write a good implementation
   (the example tests definitely don't do this!)
 - Rotate roles! Set a timer of 20-30 minutes (less if your feeling crazy) so both of you get a change to write the tests
