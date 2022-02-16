@@ -32,3 +32,23 @@ var _ = Describe("#FizzBuzz", func() {
 		})
 	})
 })
+
+var _ = Describe("#FizzBuzz James' Evil TDD", func() {
+	Context("when the number provided is divisible by 3 and it is a float", func() {
+		It("returns 'Fizz'", func() {
+			Expect(fizzbuzz.FizzBuzz(3.0)).To(Equal("Fizz"))
+		})
+	})
+
+	Context("when the number provided is divisible by 3 but is not 3", func() {
+		It("returns 'Fizz'", func() {
+			Expect(fizzbuzz.FizzBuzz(9)).To(Equal("Fizz"))
+		})
+	})
+
+	Context("when zero is provided", func() {
+		It("returns 'Give me a number other than 0!'", func() {
+			Expect(fizzbuzz.FizzBuzz(0)).To(Equal("Give me a number other than 0!"))
+		})
+	})
+})
